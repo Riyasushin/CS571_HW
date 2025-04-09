@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://cs571.org/tools/s25/badgerguard/badgerguard.js" defer></script>
+		<script src="index.js" defer></script>
+		<link rel="stylesheet" href="styles.css">
+		<title>Badger Recipes</title>
+	</head>
+	<body>
+		<label for="serving-selector">Choose a Recipe</label>
+		<select onchange="updateRecipe()" id="recipe-selector">
+			<option>chili</option>
+			<option>pasta</option>
+			<option>pizza</option>
+		</select>
+		<br>
+		<br>
+		<img id="recipe-img" width="400" height="400"/>
+        <h1 id="recipe-name"></h1>
+		<sub id="recipe-author"></sub>
+		<h2>Ingredients</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Amount</th>
+					<th>Unit</th>
+					<th>Item</th>
+				</tr>
+			</thead>
+			<tbody id="ingredients-body"></tbody>
+		</table>
+		<br>
+		<label for="serving-selector">Number of Servings</label>
+		<select onchange="updateYield()" id="serving-selector">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		</select>
+		<h2>Instructions</h2>
+		<ol id="instructions">
+		</ol>
+		<button onclick="displayReview()">Display Review</button>
+	</body>
+</html>
