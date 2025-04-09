@@ -1,0 +1,15 @@
+/* This is where your CSS goes! */
+
+
+table, th, td {
+    border: 1px solid;
+}
+
+td {
+    padding: 4px;
+}
+
+.important-ingredient {
+    color: firebrick;
+    font-weight: 700;  /* 色度，浓淡 */
+}
