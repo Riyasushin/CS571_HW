@@ -1,0 +1,13 @@
+/* This is where your CSS goes! */
+
+html {
+    margin: 1rem;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+td {
+    padding: 4px;
+}
