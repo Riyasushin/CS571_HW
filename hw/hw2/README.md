@@ -12,7 +12,7 @@ Welcome to Badger Book! In HW0, we collected JSON data about you; in this assign
 
 ### 1. Fetching Data
 
-Fetch the student data from `https://cs571api.cs.wisc.edu/rest/s25/hw2/students`. Note that this requires a `X-CS571-ID` header specifying your unique Badger ID. You may either use `CS571.getBadgerId()` (see HW1 for an example) or hardcode your Badger ID. After fetching this data, `console.log` the contents of this array.
+Fetch the student data from `https://cs571.org/rest/s25/hw2/students`. Note that this requires a `X-CS571-ID` header specifying your unique Badger ID. You may either use `CS571.getBadgerId()` (see HW1 for an example) or hardcode your Badger ID. After fetching this data, `console.log` the contents of this array.
 
 ![](_figures/step1.png)
 
